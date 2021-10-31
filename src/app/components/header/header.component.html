@@ -1,0 +1,60 @@
+<div class="header" [ngClass]= "{'header--active':isActive}">
+    <div class="container">
+        <section class="header__image">
+            <div class="row">
+                <div class="col-lg-12 ">
+                    <div class="header__image-container">
+                        <img  class="img-fluid" src="https://picsum.photos/300/300" alt="picsum" >
+                    </div>
+                    <h2 class="text-center">Oriya Nakash</h2>
+                    <h4 class="text-center">Web Developer</h4>
+                </div>
+            </div>
+        </section>
+        <section class="header__links">
+            <div class="d-flex text-center">
+                <a target="_blank" href="https://facebook">
+                    <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" href="https://facebook">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" href="https://facebook">
+                    <i class="fa fa-github-square" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" href="https://facebook">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </a>
+
+            </div>
+        </section>
+        <section class="header__nav">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="about">About</a>
+                    </li>
+                    <li>
+                        <a href="resume">Resume</a>
+                    </li>
+                    <li>
+                        <a href="portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+        </section>
+    </div>
+</div>
+<div class="menu-btn-container">
+    <button mat-fab (click)="toggleMenu()">
+        <i class="fa fa-bars"></i>
+    </button>
+</div>
